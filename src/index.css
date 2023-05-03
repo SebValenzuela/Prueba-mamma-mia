@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --main: #D93636;
+    --secondary: #D93240;
+    --white: #fff;
+    --card-background: #e6e6e6;
+    --text: #403f37;
+    --container: #b5b4b4;
+    --nav-background: #138D58;
+    --add-button: #138D58;
+    --show-button: #198dd5;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: var(--white);
+}

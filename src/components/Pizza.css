@@ -1,0 +1,46 @@
+.product {
+    background-color: var(--card-background);
+    width: 300px;
+    padding: 20px 16px;
+    border-radius: 12px;
+    border: 1px solid var(--border-color);
+}
+
+.product_img {
+    border-radius: 12px;
+    display: block;
+    margin: auto;
+    width: 250px;
+    height: 250px;
+}
+
+.product_name {
+    text-transform: uppercase;
+}
+
+.product_name,
+.product_details,
+.product_price {
+    margin-top: 16px;
+    
+}
+
+.product_name,
+.product_ingredient_title,
+.product_price {
+    margin-bottom: 16px;
+}
+
+.product_igredients {
+    padding: 10px 50px;
+    list-style: disc;
+    text-align: left;;
+}
+
+.product_ingredient_title {
+    text-align: left;
+}
+
+.product_list_ingredient {
+    margin-bottom: 8px;
+}

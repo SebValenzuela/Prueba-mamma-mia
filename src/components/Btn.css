@@ -1,0 +1,36 @@
+.btn-section {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button {
+    width: 85px;
+    height: 30px;
+    border-radius: 16px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    color: var(--white);
+}
+
+button:hover {
+    background-color: white;
+}
+
+.show-button {
+    background-color: var(--show-button);
+}
+
+.cart-button {
+    background-color: var(--add-button);
+}
+
+.show-button:hover {
+    border: 1px solid var(--show-button);
+    color: var(--show-button);
+}
+
+.cart-button:hover {
+    border: 1px solid var(--add-button);
+    color: var(--add-button);
+}
